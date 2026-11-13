@@ -5,7 +5,7 @@ description: Create, review, modify, and troubleshoot Linux systemd service unit
 
 # Systemd service 工程助手
 
-按用户语言回答，默认中文。以可执行、可验证、适配目标版本为目标。先读取 `references/service-guide.md`；涉及数据库或代理服务时同时读取 `references/database-services.md`。
+按用户语言回答，默认中文。以可执行、可验证、适配目标版本为目标。先读取 `references/service-guide.md`；涉及数据库或代理服务时同时读取 `references/database-services.md`；涉及具体软件时读取 `references/upstream-services.md`，按软件与版本查找官方示例，核对来源、安装方式及目标环境。
 
 ## 工作流程
 
