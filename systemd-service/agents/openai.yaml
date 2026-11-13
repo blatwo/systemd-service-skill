@@ -1,0 +1,4 @@
+interface:
+  display_name: "Systemd Service"
+  short_description: "Write, review, and troubleshoot systemd services"
+  default_prompt: "帮我编写或审查 systemd service，说明验证和回滚方法。"
