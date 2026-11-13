@@ -8,6 +8,7 @@
 - 检查依赖、运行用户、环境变量、重启、停止方式和日志。
 - 提供语法检查、服务验证、变更影响及回滚方法。
 - 关注 PostgreSQL、HGDB、Patroni、etcd、pgpool-II 和 hgproxy 的管理边界与版本差异。
+- 按需查阅 Patroni、etcd、vip-manager、PostgreSQL 的上游示例，以及 Pgpool-II、Tomcat 的官方文档和发行版打包线索。
 
 ## 使用
 
@@ -36,8 +37,13 @@ systemd-service/
 ├── agents/openai.yaml
 └── references/
     ├── service-guide.md
-    └── database-services.md
+    ├── database-services.md
+    └── upstream-services.md
 ```
+
+## 官方参考
+
+[上游与发行版 Service 参考索引](systemd-service/references/upstream-services.md) 标明示例来源、适用边界和核对要点。链接保留上游来源，实际使用时应查阅与目标软件版本一致的文件；Pgpool-II 和 Tomcat 条目提供官方文档或发行版打包线索，并不冒称已核实上游完整 unit。
 
 ## 注意事项
 
